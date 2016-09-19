@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D06E3D571D8FE10C00C1A715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D561D8FE10C00C1A715 /* main.m */; };
+		D06E3D5A1D8FE10C00C1A715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D591D8FE10C00C1A715 /* AppDelegate.m */; };
+		D06E3D5D1D8FE10C00C1A715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D5C1D8FE10C00C1A715 /* ViewController.m */; };
+		D06E3D601D8FE10C00C1A715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E3D5E1D8FE10C00C1A715 /* Main.storyboard */; };
+		D06E3D621D8FE10C00C1A715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06E3D611D8FE10C00C1A715 /* Assets.xcassets */; };
+		D06E3D651D8FE10C00C1A715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */; };
+		D06E3D701D8FE10C00C1A715 /* urban_waddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */; };
+		D06E3D7B1D8FE10C00C1A715 /* urban_waddleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D06E3D6C1D8FE10C00C1A715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06E3D4A1D8FE10C00C1A715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06E3D511D8FE10C00C1A715;
+			remoteInfo = "urban-waddle";
+		};
+		D06E3D771D8FE10C00C1A715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D06E3D4A1D8FE10C00C1A715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D06E3D511D8FE10C00C1A715;
+			remoteInfo = "urban-waddle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D06E3D521D8FE10C00C1A715 /* urban-waddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urban-waddle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E3D561D8FE10C00C1A715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D06E3D581D8FE10C00C1A715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D06E3D591D8FE10C00C1A715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D06E3D5B1D8FE10C00C1A715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D06E3D5C1D8FE10C00C1A715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D06E3D5F1D8FE10C00C1A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06E3D611D8FE10C00C1A715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06E3D641D8FE10C00C1A715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D06E3D661D8FE10C00C1A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E3D6B1D8FE10C00C1A715 /* urban-waddleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "urban-waddleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = urban_waddleTests.m; sourceTree = "<group>"; };
+		D06E3D711D8FE10C00C1A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E3D761D8FE10C00C1A715 /* urban-waddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "urban-waddleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = urban_waddleUITests.m; sourceTree = "<group>"; };
+		D06E3D7C1D8FE10C00C1A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06E3D4F1D8FE10C00C1A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D681D8FE10C00C1A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D731D8FE10C00C1A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06E3D491D8FE10C00C1A715 = {
+			isa = PBXGroup;
+			children = (
+				D06E3D541D8FE10C00C1A715 /* urban-waddle */,
+				D06E3D6E1D8FE10C00C1A715 /* urban-waddleTests */,
+				D06E3D791D8FE10C00C1A715 /* urban-waddleUITests */,
+				D06E3D531D8FE10C00C1A715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06E3D531D8FE10C00C1A715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D521D8FE10C00C1A715 /* urban-waddle.app */,
+				D06E3D6B1D8FE10C00C1A715 /* urban-waddleTests.xctest */,
+				D06E3D761D8FE10C00C1A715 /* urban-waddleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06E3D541D8FE10C00C1A715 /* urban-waddle */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D581D8FE10C00C1A715 /* AppDelegate.h */,
+				D06E3D591D8FE10C00C1A715 /* AppDelegate.m */,
+				D06E3D5B1D8FE10C00C1A715 /* ViewController.h */,
+				D06E3D5C1D8FE10C00C1A715 /* ViewController.m */,
+				D06E3D5E1D8FE10C00C1A715 /* Main.storyboard */,
+				D06E3D611D8FE10C00C1A715 /* Assets.xcassets */,
+				D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */,
+				D06E3D661D8FE10C00C1A715 /* Info.plist */,
+				D06E3D551D8FE10C00C1A715 /* Supporting Files */,
+			);
+			path = "urban-waddle";
+			sourceTree = "<group>";
+		};
+		D06E3D551D8FE10C00C1A715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D561D8FE10C00C1A715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D06E3D6E1D8FE10C00C1A715 /* urban-waddleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */,
+				D06E3D711D8FE10C00C1A715 /* Info.plist */,
+			);
+			path = "urban-waddleTests";
+			sourceTree = "<group>";
+		};
+		D06E3D791D8FE10C00C1A715 /* urban-waddleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */,
+				D06E3D7C1D8FE10C00C1A715 /* Info.plist */,
+			);
+			path = "urban-waddleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06E3D511D8FE10C00C1A715 /* urban-waddle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E3D7F1D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddle" */;
+			buildPhases = (
+				D06E3D4E1D8FE10C00C1A715 /* Sources */,
+				D06E3D4F1D8FE10C00C1A715 /* Frameworks */,
+				D06E3D501D8FE10C00C1A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "urban-waddle";
+			productName = "urban-waddle";
+			productReference = D06E3D521D8FE10C00C1A715 /* urban-waddle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06E3D6A1D8FE10C00C1A715 /* urban-waddleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E3D821D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleTests" */;
+			buildPhases = (
+				D06E3D671D8FE10C00C1A715 /* Sources */,
+				D06E3D681D8FE10C00C1A715 /* Frameworks */,
+				D06E3D691D8FE10C00C1A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06E3D6D1D8FE10C00C1A715 /* PBXTargetDependency */,
+			);
+			name = "urban-waddleTests";
+			productName = "urban-waddleTests";
+			productReference = D06E3D6B1D8FE10C00C1A715 /* urban-waddleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D06E3D751D8FE10C00C1A715 /* urban-waddleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E3D851D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleUITests" */;
+			buildPhases = (
+				D06E3D721D8FE10C00C1A715 /* Sources */,
+				D06E3D731D8FE10C00C1A715 /* Frameworks */,
+				D06E3D741D8FE10C00C1A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06E3D781D8FE10C00C1A715 /* PBXTargetDependency */,
+			);
+			name = "urban-waddleUITests";
+			productName = "urban-waddleUITests";
+			productReference = D06E3D761D8FE10C00C1A715 /* urban-waddleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06E3D4A1D8FE10C00C1A715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = urbanwaddle;
+				TargetAttributes = {
+					D06E3D511D8FE10C00C1A715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D06E3D6A1D8FE10C00C1A715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06E3D511D8FE10C00C1A715;
+					};
+					D06E3D751D8FE10C00C1A715 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D06E3D511D8FE10C00C1A715;
+					};
+				};
+			};
+			buildConfigurationList = D06E3D4D1D8FE10C00C1A715 /* Build configuration list for PBXProject "urban-waddle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06E3D491D8FE10C00C1A715;
+			productRefGroup = D06E3D531D8FE10C00C1A715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06E3D511D8FE10C00C1A715 /* urban-waddle */,
+				D06E3D6A1D8FE10C00C1A715 /* urban-waddleTests */,
+				D06E3D751D8FE10C00C1A715 /* urban-waddleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06E3D501D8FE10C00C1A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E3D651D8FE10C00C1A715 /* LaunchScreen.storyboard in Resources */,
+				D06E3D621D8FE10C00C1A715 /* Assets.xcassets in Resources */,
+				D06E3D601D8FE10C00C1A715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D691D8FE10C00C1A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D741D8FE10C00C1A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06E3D4E1D8FE10C00C1A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E3D5D1D8FE10C00C1A715 /* ViewController.m in Sources */,
+				D06E3D5A1D8FE10C00C1A715 /* AppDelegate.m in Sources */,
+				D06E3D571D8FE10C00C1A715 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D671D8FE10C00C1A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E3D701D8FE10C00C1A715 /* urban_waddleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E3D721D8FE10C00C1A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E3D7B1D8FE10C00C1A715 /* urban_waddleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D06E3D6D1D8FE10C00C1A715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06E3D511D8FE10C00C1A715 /* urban-waddle */;
+			targetProxy = D06E3D6C1D8FE10C00C1A715 /* PBXContainerItemProxy */;
+		};
+		D06E3D781D8FE10C00C1A715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D06E3D511D8FE10C00C1A715 /* urban-waddle */;
+			targetProxy = D06E3D771D8FE10C00C1A715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D06E3D5E1D8FE10C00C1A715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06E3D5F1D8FE10C00C1A715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06E3D641D8FE10C00C1A715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D06E3D7D1D8FE10C00C1A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D06E3D7E1D8FE10C00C1A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D06E3D801D8FE10C00C1A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "urban-waddle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D06E3D811D8FE10C00C1A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "urban-waddle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D06E3D831D8FE10C00C1A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "urban-waddleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/urban-waddle.app/urban-waddle";
+			};
+			name = Debug;
+		};
+		D06E3D841D8FE10C00C1A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "urban-waddleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/urban-waddle.app/urban-waddle";
+			};
+			name = Release;
+		};
+		D06E3D861D8FE10C00C1A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "urban-waddleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "urban-waddle";
+			};
+			name = Debug;
+		};
+		D06E3D871D8FE10C00C1A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "urban-waddleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "urban-waddle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06E3D4D1D8FE10C00C1A715 /* Build configuration list for PBXProject "urban-waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E3D7D1D8FE10C00C1A715 /* Debug */,
+				D06E3D7E1D8FE10C00C1A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06E3D7F1D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E3D801D8FE10C00C1A715 /* Debug */,
+				D06E3D811D8FE10C00C1A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D06E3D821D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E3D831D8FE10C00C1A715 /* Debug */,
+				D06E3D841D8FE10C00C1A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D06E3D851D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E3D861D8FE10C00C1A715 /* Debug */,
+				D06E3D871D8FE10C00C1A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06E3D4A1D8FE10C00C1A715 /* Project object */;
+}
