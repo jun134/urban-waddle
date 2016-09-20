@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Masonry.h"
+
 @interface ViewController ()
 
 @end
@@ -18,13 +20,19 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
+    
+    UILabel *label = [UILabel new];
+    label.text = @"Masonry Label";
+    label.textColor = [UIColor yellowColor];
+    [self.view addSubview:label];
+    [label mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+    }];
 }
-
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
 }
-
 
 @end
