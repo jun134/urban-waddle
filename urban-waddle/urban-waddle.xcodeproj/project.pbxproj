@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03339A4ACD44CC9A0CFE13DE /* libPods-urban-waddleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF12F573EACFD25A2A76A94 /* libPods-urban-waddleUITests.a */; };
 		D06E3D571D8FE10C00C1A715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D561D8FE10C00C1A715 /* main.m */; };
 		D06E3D5A1D8FE10C00C1A715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D591D8FE10C00C1A715 /* AppDelegate.m */; };
 		D06E3D5D1D8FE10C00C1A715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D5C1D8FE10C00C1A715 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		D06E3D651D8FE10C00C1A715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */; };
 		D06E3D701D8FE10C00C1A715 /* urban_waddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */; };
 		D06E3D7B1D8FE10C00C1A715 /* urban_waddleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */; };
+		DEDC0CA66EE2321FDF46ACC9 /* libPods-urban-waddle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83A6DCF210602DD9654F4C0 /* libPods-urban-waddle.a */; };
+		E82DD040B9BE291111196F17 /* libPods-urban-waddleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3A1B47533F3CEED9357B4B /* libPods-urban-waddleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DA2CCBDC24F3DE0E5DE79F1 /* Pods-urban-waddleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddleUITests/Pods-urban-waddleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EDB58D62ECFF67B1DBF8691 /* Pods-urban-waddleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddleTests/Pods-urban-waddleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EF12F573EACFD25A2A76A94 /* libPods-urban-waddleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-urban-waddleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E2DD323A21DF5ED74A1886 /* Pods-urban-waddleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddleTests/Pods-urban-waddleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3A1B47533F3CEED9357B4B /* libPods-urban-waddleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-urban-waddleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49E8F81A132BD8F9D9EA410 /* Pods-urban-waddleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddleUITests/Pods-urban-waddleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAF2B0817736DAF877825B01 /* Pods-urban-waddle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddle.release.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddle/Pods-urban-waddle.release.xcconfig"; sourceTree = "<group>"; };
+		B2487EF2A6334E2997219957 /* Pods-urban-waddle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urban-waddle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-urban-waddle/Pods-urban-waddle.debug.xcconfig"; sourceTree = "<group>"; };
+		C83A6DCF210602DD9654F4C0 /* libPods-urban-waddle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-urban-waddle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E3D521D8FE10C00C1A715 /* urban-waddle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "urban-waddle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E3D561D8FE10C00C1A715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D06E3D581D8FE10C00C1A715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDC0CA66EE2321FDF46ACC9 /* libPods-urban-waddle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82DD040B9BE291111196F17 /* libPods-urban-waddleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03339A4ACD44CC9A0CFE13DE /* libPods-urban-waddleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB825A8F26FA8CD55DA0DA37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2487EF2A6334E2997219957 /* Pods-urban-waddle.debug.xcconfig */,
+				AAF2B0817736DAF877825B01 /* Pods-urban-waddle.release.xcconfig */,
+				1EDB58D62ECFF67B1DBF8691 /* Pods-urban-waddleTests.debug.xcconfig */,
+				23E2DD323A21DF5ED74A1886 /* Pods-urban-waddleTests.release.xcconfig */,
+				1DA2CCBDC24F3DE0E5DE79F1 /* Pods-urban-waddleUITests.debug.xcconfig */,
+				A49E8F81A132BD8F9D9EA410 /* Pods-urban-waddleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEB6E1602E54CF6E4DE739FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C83A6DCF210602DD9654F4C0 /* libPods-urban-waddle.a */,
+				9C3A1B47533F3CEED9357B4B /* libPods-urban-waddleTests.a */,
+				1EF12F573EACFD25A2A76A94 /* libPods-urban-waddleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D06E3D491D8FE10C00C1A715 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				D06E3D6E1D8FE10C00C1A715 /* urban-waddleTests */,
 				D06E3D791D8FE10C00C1A715 /* urban-waddleUITests */,
 				D06E3D531D8FE10C00C1A715 /* Products */,
+				AB825A8F26FA8CD55DA0DA37 /* Pods */,
+				BEB6E1602E54CF6E4DE739FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E3D7F1D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddle" */;
 			buildPhases = (
+				378E5098BC8BEE8A6CC9FE2C /* [CP] Check Pods Manifest.lock */,
 				D06E3D4E1D8FE10C00C1A715 /* Sources */,
 				D06E3D4F1D8FE10C00C1A715 /* Frameworks */,
 				D06E3D501D8FE10C00C1A715 /* Resources */,
+				FED578E49C9929AD1CFC65BB /* [CP] Embed Pods Frameworks */,
+				CE5ED64F36A73A3998B52665 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E3D821D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleTests" */;
 			buildPhases = (
+				FE5E1A89438C930AAD1DC4C9 /* [CP] Check Pods Manifest.lock */,
 				D06E3D671D8FE10C00C1A715 /* Sources */,
 				D06E3D681D8FE10C00C1A715 /* Frameworks */,
 				D06E3D691D8FE10C00C1A715 /* Resources */,
+				71062E587C67EA537235C312 /* [CP] Embed Pods Frameworks */,
+				E8BC819FF71535FEF7487266 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D06E3D851D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleUITests" */;
 			buildPhases = (
+				B56FFAFD2007C0D9567AB7FE /* [CP] Check Pods Manifest.lock */,
 				D06E3D721D8FE10C00C1A715 /* Sources */,
 				D06E3D731D8FE10C00C1A715 /* Frameworks */,
 				D06E3D741D8FE10C00C1A715 /* Resources */,
+				5E6DBC58F69AF7AF0E537DD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +315,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		378E5098BC8BEE8A6CC9FE2C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E6DBC58F69AF7AF0E537DD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urban-waddleUITests/Pods-urban-waddleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71062E587C67EA537235C312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urban-waddleTests/Pods-urban-waddleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56FFAFD2007C0D9567AB7FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5ED64F36A73A3998B52665 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urban-waddle/Pods-urban-waddle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BC819FF71535FEF7487266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urban-waddleTests/Pods-urban-waddleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5E1A89438C930AAD1DC4C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FED578E49C9929AD1CFC65BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urban-waddle/Pods-urban-waddle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D06E3D4E1D8FE10C00C1A715 /* Sources */ = {
@@ -422,6 +593,7 @@
 		};
 		D06E3D801D8FE10C00C1A715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2487EF2A6334E2997219957 /* Pods-urban-waddle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "urban-waddle/Info.plist";
@@ -433,6 +605,7 @@
 		};
 		D06E3D811D8FE10C00C1A715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF2B0817736DAF877825B01 /* Pods-urban-waddle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "urban-waddle/Info.plist";
@@ -444,6 +617,7 @@
 		};
 		D06E3D831D8FE10C00C1A715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDB58D62ECFF67B1DBF8691 /* Pods-urban-waddleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "urban-waddleTests/Info.plist";
@@ -456,6 +630,7 @@
 		};
 		D06E3D841D8FE10C00C1A715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E2DD323A21DF5ED74A1886 /* Pods-urban-waddleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "urban-waddleTests/Info.plist";
@@ -468,6 +643,7 @@
 		};
 		D06E3D861D8FE10C00C1A715 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA2CCBDC24F3DE0E5DE79F1 /* Pods-urban-waddleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "urban-waddleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +655,7 @@
 		};
 		D06E3D871D8FE10C00C1A715 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49E8F81A132BD8F9D9EA410 /* Pods-urban-waddleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "urban-waddleUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +684,7 @@
 				D06E3D811D8FE10C00C1A715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D06E3D821D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +693,7 @@
 				D06E3D841D8FE10C00C1A715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D06E3D851D8FE10C00C1A715 /* Build configuration list for PBXNativeTarget "urban-waddleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +702,7 @@
 				D06E3D871D8FE10C00C1A715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
