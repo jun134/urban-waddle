@@ -38,6 +38,16 @@
         make.right.mas_equalTo(-15);
         make.height.mas_equalTo(40);
     }];
+    
+    //git ignore
+    //http://www.pfeng.org/archives/840
+    //touch .gitignore
+    //vi .gitignore
+    //git rm -r --cached .
+    //git add .
+    //git commit -m 'delete .DS_Store'
+    //http://www.samirchen.com/git-in-xcode/
+    //https://github.com/github/gitignore/blob/master/Objective-C.gitignore
 }
 
 - (void)didReceiveMemoryWarning
