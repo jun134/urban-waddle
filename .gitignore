@@ -19,6 +19,9 @@ xcuserdata/
 *.moved-aside
 *.xcuserstate
 
+# OS X temporary files that should never be committed
+.DS_Store
+
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
