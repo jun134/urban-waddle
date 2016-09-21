@@ -7,21 +7,16 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
-@property(nonatomic, strong)UIWindow *keyWindow;
+
 @end
 
 @implementation AppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"aaa");
-    _keyWindow = [[UIWindow alloc] initWithFrame:[UIApplication sharedApplication].keyWindow.bounds];
-    ViewController *vc = [[ViewController alloc] init];
-    _keyWindow.rootViewController = vc;
-    [_keyWindow makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 

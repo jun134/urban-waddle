@@ -16,6 +16,7 @@
 		D06E3D651D8FE10C00C1A715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */; };
 		D06E3D701D8FE10C00C1A715 /* urban_waddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */; };
 		D06E3D7B1D8FE10C00C1A715 /* urban_waddleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */; };
+		D072AFEE1D92668E000ABCEB /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D072AFED1D92668E000ABCEB /* SettingViewController.m */; };
 		DEDC0CA66EE2321FDF46ACC9 /* libPods-urban-waddle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83A6DCF210602DD9654F4C0 /* libPods-urban-waddle.a */; };
 		E82DD040B9BE291111196F17 /* libPods-urban-waddleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3A1B47533F3CEED9357B4B /* libPods-urban-waddleTests.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,8 @@
 		D06E3D761D8FE10C00C1A715 /* urban-waddleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "urban-waddleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = urban_waddleUITests.m; sourceTree = "<group>"; };
 		D06E3D7C1D8FE10C00C1A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D072AFEC1D92668E000ABCEB /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D072AFED1D92668E000ABCEB /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +144,9 @@
 		D06E3D541D8FE10C00C1A715 /* urban-waddle */ = {
 			isa = PBXGroup;
 			children = (
+				D072AFEF1D926698000ABCEB /* Controller */,
 				D06E3D581D8FE10C00C1A715 /* AppDelegate.h */,
 				D06E3D591D8FE10C00C1A715 /* AppDelegate.m */,
-				D06E3D5B1D8FE10C00C1A715 /* ViewController.h */,
-				D06E3D5C1D8FE10C00C1A715 /* ViewController.m */,
 				D06E3D5E1D8FE10C00C1A715 /* Main.storyboard */,
 				D06E3D611D8FE10C00C1A715 /* Assets.xcassets */,
 				D06E3D631D8FE10C00C1A715 /* LaunchScreen.storyboard */,
@@ -178,6 +180,17 @@
 				D06E3D7C1D8FE10C00C1A715 /* Info.plist */,
 			);
 			path = "urban-waddleUITests";
+			sourceTree = "<group>";
+		};
+		D072AFEF1D926698000ABCEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D06E3D5B1D8FE10C00C1A715 /* ViewController.h */,
+				D06E3D5C1D8FE10C00C1A715 /* ViewController.m */,
+				D072AFEC1D92668E000ABCEB /* SettingViewController.h */,
+				D072AFED1D92668E000ABCEB /* SettingViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +460,7 @@
 				D06E3D5D1D8FE10C00C1A715 /* ViewController.m in Sources */,
 				D06E3D5A1D8FE10C00C1A715 /* AppDelegate.m in Sources */,
 				D06E3D571D8FE10C00C1A715 /* main.m in Sources */,
+				D072AFEE1D92668E000ABCEB /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
