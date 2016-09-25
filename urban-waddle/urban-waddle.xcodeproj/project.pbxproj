@@ -17,6 +17,7 @@
 		D06E3D701D8FE10C00C1A715 /* urban_waddleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D6F1D8FE10C00C1A715 /* urban_waddleTests.m */; };
 		D06E3D7B1D8FE10C00C1A715 /* urban_waddleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D06E3D7A1D8FE10C00C1A715 /* urban_waddleUITests.m */; };
 		D072AFEE1D92668E000ABCEB /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D072AFED1D92668E000ABCEB /* SettingViewController.m */; };
+		D072AFF21D927250000ABCEB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D072AFF11D927250000ABCEB /* TestViewController.m */; };
 		DEDC0CA66EE2321FDF46ACC9 /* libPods-urban-waddle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C83A6DCF210602DD9654F4C0 /* libPods-urban-waddle.a */; };
 		E82DD040B9BE291111196F17 /* libPods-urban-waddleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3A1B47533F3CEED9357B4B /* libPods-urban-waddleTests.a */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,8 @@
 		D06E3D7C1D8FE10C00C1A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D072AFEC1D92668E000ABCEB /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		D072AFED1D92668E000ABCEB /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D072AFF01D927250000ABCEB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D072AFF11D927250000ABCEB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 				D06E3D5C1D8FE10C00C1A715 /* ViewController.m */,
 				D072AFEC1D92668E000ABCEB /* SettingViewController.h */,
 				D072AFED1D92668E000ABCEB /* SettingViewController.m */,
+				D072AFF01D927250000ABCEB /* TestViewController.h */,
+				D072AFF11D927250000ABCEB /* TestViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -461,6 +466,7 @@
 				D06E3D5A1D8FE10C00C1A715 /* AppDelegate.m in Sources */,
 				D06E3D571D8FE10C00C1A715 /* main.m in Sources */,
 				D072AFEE1D92668E000ABCEB /* SettingViewController.m in Sources */,
+				D072AFF21D927250000ABCEB /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,6 +622,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -628,6 +635,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.urbanwaddle.urban-waddle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
